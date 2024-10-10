@@ -37,6 +37,10 @@ if (a % 5 === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+if (n1 === 8 || n2 === 8 || n1 - n2 === 8 || n2 - n1 === 8 || n1 + n2 === 8) {
+  console.log("!");
+} else {
+  console.log("Condizioni non soddisfatte");
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
@@ -77,8 +81,14 @@ let num3 = 10;
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
 
+/* SCRIVI QUI LA TUA RISPOSTA */
+let n = "Stringa";
+if (typeof n !== "number") {
+  console.log("non è un numero");
+} else {
+  console.log("è un numero");
+}
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
@@ -133,6 +143,7 @@ delete me.lastName;
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+me.skills.pop();
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
